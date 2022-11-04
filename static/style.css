@@ -222,6 +222,23 @@ i.menu-mobile {
     border-radius: 50%;
 }
 
+.carousel-control-prev{
+    margin-left: -0rem;
+    margin-right: 0;
+}
+  
+.carousel-control-next{
+    margin-right: -0rem;
+    margin-left: 0;
+}
+  
+.carousel-indicators{
+    margin-bottom: -35px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+  
+
 .services .icon-box {
     margin-bottom: 20px;
 }
