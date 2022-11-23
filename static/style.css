@@ -4,6 +4,7 @@ html,body{
     font-family: 'Exo 2', sans-serif;
     width: 100%;
     height: 100%;
+    
 }
 
 #header{
@@ -222,23 +223,6 @@ i.menu-mobile {
     border-radius: 50%;
 }
 
-.carousel-control-prev{
-    margin-left: -0rem;
-    margin-right: 0;
-}
-  
-.carousel-control-next{
-    margin-right: -0rem;
-    margin-left: 0;
-}
-  
-.carousel-indicators{
-    margin-bottom: -35px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-  
-
 .services .icon-box {
     margin-bottom: 20px;
 }
@@ -266,7 +250,7 @@ i.menu-mobile {
 .services .icon-box:hover .icon {
     background: #1f5297;
     transform: translateY(-35px);
-    border-radius: 50%;
+    border-radius: 35%;
 }
   
 .services .icon-box:hover .icon i {
@@ -337,3 +321,109 @@ i.menu-mobile {
   opacity: 1;
   transform: translate3d(0,0,0);
 }
+
+/* reajustando tamanho do conteúdo na tela */
+
+section#sobre{
+    margin-left: 3%;
+    width: 97%;
+}
+
+section#habilidades .container {
+    margin-left: 3%;
+    width: 97%;
+}
+
+section#curriculo{
+    margin-left: 3%;
+    width: 97%;
+}
+
+section#cursos .container{
+    margin-left: 3%;
+    width: 97%;
+}
+
+section#contato .container{
+    margin-left: 3%;
+    width: 97%;
+}
+
+section#portfolio .container{
+    margin-left: 3%;
+    width: 97%;
+}
+
+
+#portfolio .team-block {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    height: 254px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    #portfolio .team-block {
+      margin-bottom: 30px;
+    }
+  }
+  
+  #portfolio .team-block img {
+    width: 100%;
+
+  }
+  
+  #portfolio .team-block .team-content {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+    bottom: -147px;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+  #portfolio .team-block .team-content ul {
+    display: block;
+    width: 100%;
+  }
+  
+  #portfolio .team-block .team-content ul li {
+    display: inline-block;
+  }
+  
+  #portfolio .team-block .team-content ul li a {
+    color: #626262;
+  }
+  
+  #portfolio .team-block .team-content ul li a .fa {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+  }
+  
+  #portfolio .team-block .team-content ul li a .fa:hover {
+    color: #71c55d;
+  }
+  
+  #portfolio .team-block .team-content ul>span {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  #portfolio .team-block .team-content ul>h4 {
+    font-size: 50px;
+  }
+  
+  #portfolio .team-block:hover .team-content {
+    bottom: 0px;
+    transition: all 0.5s ease-in-out 0s;
+  }
+
